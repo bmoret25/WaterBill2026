@@ -13,5 +13,8 @@ public class Main {
 
  */
        Customer c = new Customer();
+       c.customerInput();
+       c.calculateBill();
+       c.printBill();
     }
 }
